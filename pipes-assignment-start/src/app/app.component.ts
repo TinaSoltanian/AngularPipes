@@ -14,25 +14,25 @@ export class AppComponent {
   servers = [
     {
       instanceType: 'medium',
-      name: 'Production',
+      name: 'x Production',
       status: 'stable',
       started: new Date(15, 1, 2017)
     },
     {
       instanceType: 'large',
-      name: 'User Database',
+      name: 'd User Database',
       status: 'stable',
       started: new Date(15, 1, 2017)
     },
     {
       instanceType: 'small',
-      name: 'Development Server',
+      name: 'c Development Server',
       status: 'offline',
       started: new Date(15, 1, 2017)
     },
     {
       instanceType: 'small',
-      name: 'Testing Environment Server',
+      name: 'a Testing Environment Server',
       status: 'stable',
       started: new Date(15, 1, 2017)
     }
