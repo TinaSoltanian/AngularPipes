@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { FilterPipe } from './filter.pipe';
 import { SortPipe } from './sort.pipe';
+import { ReverseStringPipe } from './reverse-string.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     FilterPipe,
-    SortPipe
+    SortPipe,
+    ReverseStringPipe
   ],
   imports: [
     BrowserModule,
